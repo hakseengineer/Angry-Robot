@@ -1,3 +1,10 @@
+/****************************************************************************************
+      Author : Hak Se Engineer                          
+      Date   : 13/07/2024                               
+      License: This program is free software: you can redistribute it and/or modify    
+      it under the terms of the GNU General Public License
+*****************************************************************************************/
+
 #include <Servo.h>
 
 Servo myservo;  // create servo object to control a servo
@@ -46,8 +53,6 @@ void loop() {
     myservo.write(val);             // sets the servo position according to the scaled value
       delay(15); 
   }
-
-
 }
 
 
